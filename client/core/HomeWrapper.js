@@ -111,7 +111,7 @@ class HomeWrapper extends React.Component {
             {...rest}
           />
             <div className={classes.content}>
-              <div className={classes.container}><Home /></div>
+              <div className={classes.container}>{switchRoutes}</div>
             </div>
           <Footer fluid />
         </div>
